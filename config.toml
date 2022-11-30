@@ -2,7 +2,7 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "https://sparkling-tulumba-684d90.netlify.app/"
+baseURL = "https://sparkling-tulumba-684d90.netlify.app"
 title = "Welcome to my blog"
 enableRobotsTXT = true
 enableEmoji = true
