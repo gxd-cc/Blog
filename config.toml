@@ -3,7 +3,7 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "https://sparkling-tulumba-684d90.netlify.app/"
-title = "Jane - A super concise theme for Hugo"
+title = "Welcome to my blog"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -16,12 +16,15 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 # language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "en"           # Default language to use
+defaultContentLanguage = "zh-cn"           # Default language to use
 [languages.en]
   languageCode = "en"
 
+[Languages.zh-cn]
+  languageCode = "zh-cn"
+
 [author]
-  name = "xianmin"        # essential                     # 必需
+  name = "gxd-cc"        # essential                     # 必需
   url = "/about"          # optional                      # 可选
 
 [sitemap]                 # essential                     # 必需
@@ -30,29 +33,26 @@ defaultContentLanguage = "en"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "This is Home"
+  name = "主页"
   weight = 10
   identifier = "home"
   pageref = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "归档"
   weight = 20
   identifier = "archives"
   pageref = "/post/"
 [[menu.main]]
-  name = "Tags"
+  name = "标签"
   weight = 30
   identifier = "tags"
   pageref = "/tags/"
 [[menu.main]]
-  name = "Categories"
+  name = "分类"
   weight = 40
   identifier = "categories"
   pageref = "/categories/"
-[[menu.main]]
-  name = "external-link"
-  weight = 50
-  pageref = "https://gohugo.io"
+
 
 
 [params]
@@ -61,7 +61,7 @@ defaultContentLanguage = "en"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "gxd-cc"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","jane"]
   description = "Hugo theme jane example site."
 
@@ -80,7 +80,7 @@ defaultContentLanguage = "en"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
+    a-email = "mailto:test@email.com"
     b-stack-overflow = "http://localhost:1313"
     c-twitter = "http://localhost:1313"
     d-facebook = "http://localhost:1313"
